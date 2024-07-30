@@ -1,0 +1,11 @@
+class Lolipop
+{
+	String brand;
+	String color="Balck";
+	int price;
+	
+	Lolipop()
+	{
+		System.out.println("Created Lolipop");
+	}
+}
