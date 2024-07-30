@@ -1,4 +1,4 @@
-class Runner
+class SRunner
 {
 public static void main(String [] args)
 {
