@@ -1,0 +1,27 @@
+package com.xworkz.bike;
+
+public class Bikes {
+
+	private String name;
+	private int index;
+	
+	String[] bikenames=new String[7];
+
+	
+	public Bikes (String name)
+	{
+		this.name=name;
+		this.bikenames[this.index]=name;
+	}
+	{
+	for(String bikenames:bikenames)
+	{
+		System.out.println("Name : "+bikenames);
+		index++;
+	}
+	
+	
+	
+	
+}
+}

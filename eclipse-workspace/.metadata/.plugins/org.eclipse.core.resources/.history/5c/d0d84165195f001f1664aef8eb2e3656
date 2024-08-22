@@ -1,0 +1,54 @@
+package com.species.plant;
+
+public class Plant {
+
+	String name;
+	String use;
+	boolean flammable;
+	char vitamins;
+	int length;
+	double price;
+	String type;
+	boolean good;
+	String root;
+	String place;
+	
+	public Plant(String name, String use, boolean flammable, char vitamins, int length)
+	{
+		System.out.println("Created Plant");
+		this.name=name;
+		this.use=use;
+		this.flammable=flammable;
+		this.vitamins=vitamins;
+		this.length=length;
+		
+	}
+	
+	public void setPlant(double price, String type, boolean good, String root, String place)
+	{
+		this.price=price;
+		this.type=type;
+		this.good=good;
+		this.root=root;
+		this.place=place;
+	}
+	
+	public void mudrana()
+	{
+		System.out.println("Name : "+name);
+		System.out.println("Use : "+use);
+		System.out.println("flammable : "+flammable);
+		System.out.println("vitamins : "+vitamins);
+		System.out.println("length : "+length);
+		System.out.println("price : "+price);
+		System.out.println("type : "+type);
+		System.out.println("good : "+good);
+		System.out.println("root : "+root);
+		System.out.println("place : "+place);
+
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,11 @@
+package com.species.plant;
+
+public class PlantRunner {
+
+	public static void main(String[] args) {
+
+		Plant value1=new Plant("Aloe vera","medicinal",false,'C',5);
+		
+	}
+
+}

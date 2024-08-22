@@ -1,0 +1,19 @@
+package com.xworkz.bike;
+
+public class BikeRunner {
+
+	public static void main(String[] args) {
+
+		System.out.println("Running main in bike runner");
+		Bikes bike=new Bikes();
+		bike.Bikes("KTM");
+		bike.Bikes("GTR");
+		bike.Bikes("PULSAR");
+		bike.Bikes("GENESIS");
+		bike.Bikes("SPLENDER");
+		bike.Bikes("ACTIVA");
+		bike.Bikes("PEPT");
+
+	}
+
+}

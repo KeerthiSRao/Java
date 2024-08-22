@@ -1,0 +1,10 @@
+package com.species.plant;
+
+public class Plant {
+
+	String name;
+	String species;
+	String group;
+	
+	
+}

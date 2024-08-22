@@ -1,0 +1,30 @@
+package com.species.plant;
+
+public class Plant {
+
+	String name;
+	String use;
+	boolean flammable;
+	char vitamins;
+	int length;
+	double price;
+	String type;
+	boolean good;
+	String root;
+	String place;
+	
+	public Plant(String name, String use, boolean flammable, char vitamins, int length)
+	{
+		this.name=name;
+		this.use=use;
+		this.flammable=flammable;
+		this.vitamins=vitamins;
+		this.length=length;
+		
+	}
+	
+	
+	
+	
+	
+}

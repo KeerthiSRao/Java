@@ -1,0 +1,16 @@
+package com.species.plant;
+
+public class Plant {
+
+	String name;
+	String use;
+	boolean flammable;
+	char vitamins;
+	int length;
+	double price;
+	
+	
+	
+	
+	
+}
